@@ -1,0 +1,21 @@
+Logic here:
+-----------
+Will have a 2D array of block ratings in the grid. These ratings change dynamically as new obstacles come up. D* will find the best path based on these ratings.
+Assume constant speed.
+Position for enemies changes
+Use D* to update their data strs with actions
+In some place in the code, need to mark stuff as open or not. Right before action?
+how do they choose which path to take?
+11x11
+
+Steps:
+------
+1) implement D*
+2) find out how to use it
+
+
+  0 1 2 3
+3     b
+2   a   c
+1 s     g
+0    
